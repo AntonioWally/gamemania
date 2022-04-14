@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.top {
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    padding-top: 18px;
+    width: 100%;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    color: #FF8787;
+    font-size: 16px
+}
+
+header {
+    background-color: #2D3947;
+    height: 145px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    background-color: #c1c1c1;
+}
+
+.container-grid .menu .linkMenu {
+    text-decoration: none;
+    margin: 60px 0px 0px;
+    text-transform: none;
+    color: #5B6F89;
+    font-weight: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu .linkMenu:hover { 
+    color: #c1c1c1;
+}
+
+.container-grid .pesquisa {
+    display: flex;
+    display: block;
+    text-transform: none;
+    color: #5B6F89;
+    font-weight: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pesquisa .btn-pesquisa {
+    display: flex;
+    display: block;
+    text-align: center;
+    text-decoration: #5B6F89;
+    background: #212C38;
+    padding-left: 10px;
+    border: 3px solid #202935;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.btn-pesquisa:hover { 
+    color: #c1c1c1;
+}
+
+
+
+.container-grid .login {
+    display: flex;
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: #5B6F89;
+    font-weight: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.login:hover { 
+    color: #c1c1c1;
+}
+
+.barras {
+    width: 50px;    
+    display: none;  
+}
+/*
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 90%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+}
+*/
+@media screen and (max-width: 768px) {
+    .container-grid {
+        width: 90%;
+    }
+    
+    .barras {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none; 
+    }
+
+    .pesquisa .btn-pesquisa {
+        display: none; 
+    }
+    
+    .container-grid .login {
+        display: none; 
+    }
+
+    .galeria {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+}
+
+.destaques h2 {
+    font-size: small;
+}
+
+.banner-home {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-menu {
+    margin-top: 50px;
+}
+
+#carouselExampleControls {
+    width: 80%;
+    margin: 10% auto;
+    display: table;
+}
+
+#carouselExampleControls img {
+    width: 60%;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.destaques {
+    text-align: center;
+    color: #5A5E63;
+    font-size: medium;
+    
+}
+
+.galeria {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 40px;
+} 
+
+.galeria .col-3 {
+    width: 260px;
+    height: 280px;
+    background: #666666;
+    border-radius: 10px;
+    margin: auto;
+    flex: 1 1 262px;
+    max-width: 360px;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.image-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+
+
+
+
+footer {
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 263px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF8787;
+}
+
+.rodape {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+ 
+.info {
+    width: 1200px;
+    text-align: right;
+    align-items: center;
+}
+
+.logofooter {
+    width: 1200px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Righteous', cursive;
+}
+
+.menufooter {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+/*
+
+
+
+
+.container-grid .lupa {
+    margin-left: 10px;
+}
+
+/*.container-grid .menu {
+    width: 500px;
+}
+
+
+
+
+
+
+
+.logo {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.menu {
+    background-color: #2D3947;
+    width: 100%;
+    height: 145px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.banner-home {
+    width: 100%;
+    height: 600px;
+    margin-left: 130px;
+    background-color: #c1c1c1;
+}
+
+.banner-home img {
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    display: table;
+    border-radius: 10px;
+}
+
+.banner-home .texto-menu {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.banner-home .texto-menu h1 {
+    font-size: 40px;
+    width: 80%;
+}
+
+.banner-home .texto-menu p {
+    font-size: 18;
+    margin: 30px 0px;
+    width: 90%;
+}
+
+.banner-home .texto-menu .btn-banner {
+    border-radius: 5px;
+    padding: 8px 18px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/*
+
+
+
+*/
+/*
+@media screen and (max-width: 600px) {
+    .banner-home img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner-home .texto-menu {
+        width: 100%;
+    }
+
+    .banner-home .texto-menu h1 {
+        font-size: 22px;
+    }
+
+    .banner-home .texto-menu p {
+        font-size: 12px;
+        margin: 30px 0px;
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .container-grid {
+        width: 90%;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+}
+
+
+
+
+
+.banner1 {
+    width: 100%; height: 764px; background-color: #c1c1c1;
+}
+
+.destaques {
+    width: 100%; height: 738px; background-color: #c1c1c1;
+}
+
+.banner2 {
+    width: 100%; height: 237px; background-color: #c1c1c1;
+}
+
+.promo {
+    width: 100%; height: 770px; background-color: #c1c1c1;
+}
+
+
+
+/*.galeria .col-3 {
+background: #FFFFFF;
+box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}*/
